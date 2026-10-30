@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jhonnatas Amaro — Desenvolvedor Full-Stack em Formação</title>
+<meta name="description" content="Portfólio profissional de Jhonnatas Amaro, estudante de Engenharia de Software e desenvolvedor Python em formação. Projetos, habilidades e contato.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="favicon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header" id="header">
+  <div class="wrap header__inner">
+    <a href="#topo" class="brand">
+      <span class="brand__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="brand__text">~/<span class="accent-purple">jhonnatas</span></span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#sobre" class="nav__link"><span class="nav__num">01</span>sobre</a>
+      <a href="#skills" class="nav__link"><span class="nav__num">02</span>skills</a>
+      <a href="#projetos" class="nav__link"><span class="nav__num">03</span>projetos</a>
+      <a href="#contato" class="nav__link"><span class="nav__num">04</span>contato</a>
+    </nav>
+
+    <div class="header__actions">
+      <a href="#contato" class="btn btn--primary btn--sm">contato()</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="topo">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="wrap hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow"><span class="dot dot--green"></span> disponível para novas oportunidades</p>
+
+        <div class="editor" data-editor-hero>
+          <div class="editor__bar">
+            <span class="editor__dots"><i></i><i></i><i></i></span>
+            <span class="editor__file">apresentacao.js</span>
+          </div>
+          <div class="editor__body">
+            <p class="code-line"><span class="tok-comment">// olá, seja bem-vindo(a) 👋</span></p>
+            <p class="code-line"><span class="tok-kw">const</span> <span class="tok-var">desenvolvedor</span> <span class="tok-op">=</span> <span class="tok-punc">{</span></p>
+            <p class="code-line indent-1"><span class="tok-key">nome:</span> <span class="tok-str">"Jhonnatas Amaro Sobral da Silva"</span><span class="tok-punc">,</span></p>
+            <p class="code-line indent-1"><span class="tok-key">atuacao:</span> <span class="tok-str">"Desenvolvedor Full-Stack em Formação"</span><span class="tok-punc">,</span></p>
+            <p class="code-line indent-1"><span class="tok-key">foco:</span> <span class="tok-punc">[</span><span class="tok-str">"python"</span><span class="tok-punc">,</span> <span class="tok-str">"sql"</span><span class="tok-punc">,</span> <span class="tok-str">"web"</span><span class="tok-punc">]</span><span class="tok-punc">,</span></p>
+            <p class="code-line indent-1" id="typeLine"><span class="tok-key">missao:</span> <span class="tok-str" id="typeTarget"></span><span class="cursor" aria-hidden="true">▌</span></p>
+            <p class="code-line"><span class="tok-punc">}</span><span class="tok-punc">;</span></p>
+          </div>
+        </div>
+
+        <h1 class="hero__title">
+          Eu transformo problemas reais<br>
+          em <span class="accent-purple">software bem&nbsp;construído.</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          Sou <strong>Jhonnatas Amaro</strong>, estudante de Engenharia de Software (4º período) e
+          desenvolvedor Python em formação, com conhecimentos em SQL, POO, HTML, CSS e JavaScript.
+          Este portfólio reúne os projetos, ferramentas e conhecimentos que venho construindo na prática.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#projetos" class="btn btn--primary">Ver projetos <span class="btn__arrow">→</span></a>
+          <a href="#contato" class="btn btn--ghost">Falar comigo</a>
+        </div>
+
+        <div class="hero__social">
+          <a href="https://github.com/jhonnatas22" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 .5C5.73.5.75 5.48.75 11.75c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.1-3.17.69-3.84-1.35-3.84-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A11.26 11.26 0 0 0 23.25 11.75C23.25 5.48 18.27.5 12 .5z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/jhonnatas-amaro-65b96734a/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__grid" aria-hidden="true"></div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="section" id="sobre">
+    <div class="wrap">
+      <p class="section__eyebrow"><span class="section__num">01</span> sobre mim</p>
+      <h2 class="section__title">Quem escreve o código</h2>
+
+      <div class="about">
+        <div class="about__text" data-reveal>
+          <p>
+            Sou <strong>Jhonnatas Amaro</strong>, estudante de Engenharia de Software no UMJ — Centro
+            Universitário Mário Pontes Jucá, atualmente no 4º período. Tenho como foco o desenvolvimento
+            Python, mas construo minha base em várias frentes: SQL, programação orientada a objetos, HTML,
+            CSS e JavaScript. Cada projeto abaixo nasceu de um problema real que eu quis resolver escrevendo
+            código.
+          </p>
+          <p>
+            Gosto de aprender fazendo: em vez de só estudar teoria, coloco a mão no código e construo algo
+            funcional de ponta a ponta — do back-end (Python, SQL) à interface (HTML, CSS, JavaScript). Isso
+            já resultou em projetos com cadastro e autenticação de usuários, automações, scraping de dados e
+            aplicações web publicadas com deploy real.
+          </p>
+          <p>
+            Estou em Matriz de Camaragibe/AL e buscando minha primeira oportunidade profissional na área de desenvolvimento
+            — estágio ou posição júnior — para aplicar o que venho construindo em projetos pessoais dentro de
+            um time e continuar aprendendo com quem já está no mercado.
+          </p>
+        </div>
+
+        <aside class="about__card editor" data-reveal>
+          <div class="editor__bar">
+            <span class="editor__dots"><i></i><i></i><i></i></span>
+            <span class="editor__file">perfil.json</span>
+          </div>
+          <div class="editor__body">
+            <p class="code-line"><span class="tok-punc">{</span></p>
+            <p class="code-line indent-1"><span class="tok-key">"formacao":</span> <span class="tok-str">"Engenharia de Software — UMJ"</span><span class="tok-punc">,</span></p>
+            <p class="code-line indent-1"><span class="tok-key">"status":</span> <span class="tok-str">"cursando — 4º período"</span><span class="tok-punc">,</span></p>
+            <p class="code-line indent-1"><span class="tok-key">"area":</span> <span class="tok-str">"Desenvolvimento Python & Web"</span><span class="tok-punc">,</span></p>
+            <p class="code-line indent-1"><span class="tok-key">"objetivo":</span> <span class="tok-str">"1ª oportunidade como dev"</span><span class="tok-punc">,</span></p>
+            <p class="code-line indent-1"><span class="tok-key">"localizacao":</span> <span class="tok-str">"Matriz de Camaragibe, AL"</span><span class="tok-punc">,</span></p>
+            <p class="code-line indent-1"><span class="tok-key">"idiomas":</span> <span class="tok-punc">[</span><span class="tok-str">"Português"</span><span class="tok-punc">]</span></p>
+            <p class="code-line"><span class="tok-punc">}</span></p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section--alt" id="skills">
+    <div class="wrap">
+      <p class="section__eyebrow"><span class="section__num">02</span> stack</p>
+      <h2 class="section__title">Ferramentas que domino</h2>
+      <p class="section__lead">
+        Conhecimentos construídos ao longo da formação e aplicados diretamente nos projetos da seção abaixo.
+      </p>
+
+      <div class="skills" id="skillsGrid"><!-- gerado via JS --></div>
+    </div>
+  </section>
+
+  <!-- ===== PROJETOS ===== -->
+  <section class="section" id="projetos">
+    <div class="wrap">
+      <p class="section__eyebrow"><span class="section__num">03</span> projetos</p>
+      <h2 class="section__title">O que eu já construí</h2>
+      <p class="section__lead">
+        Uma seleção de projetos pessoais e acadêmicos. Cada card traz o problema resolvido, as principais
+        funcionalidades e o link para o código-fonte.
+      </p>
+
+      <div class="projects" id="projectsGrid"><!-- gerado via JS --></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="section section--alt" id="contato">
+    <div class="wrap contact">
+      <div class="contact__text" data-reveal>
+        <p class="section__eyebrow"><span class="section__num">04</span> contato</p>
+        <h2 class="section__title">Vamos conversar?</h2>
+        <p class="section__lead">
+          Estou aberto(a) a oportunidades de estágio, primeiro emprego e projetos freelance.
+          Me chame por qualquer um dos canais abaixo — respondo rápido.
+        </p>
+
+        <ul class="contact__list">
+          <li>
+            <span class="contact__label">email</span>
+            <a href="mailto:Jhonnatasamaro@gmail.com">Jhonnatasamaro@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact__label">whatsapp</span>
+            <a href="https://wa.me/5582991363290" target="_blank" rel="noopener">+55 82 99136-3290</a>
+          </li>
+          <li>
+            <span class="contact__label">github</span>
+            <a href="https://github.com/jhonnatas22" target="_blank" rel="noopener">github.com/jhonnatas22</a>
+          </li>
+          <li>
+            <span class="contact__label">linkedin</span>
+            <a href="https://www.linkedin.com/in/jhonnatas-amaro-65b96734a/" target="_blank" rel="noopener">linkedin.com/in/jhonnatas-amaro</a>
+          </li>
+          <li>
+            <span class="contact__label">local</span>
+            <span>Matriz de Camaragibe, AL — remoto ou presencial</span>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact__form editor" id="contactForm" data-reveal>
+        <div class="editor__bar">
+          <span class="editor__dots"><i></i><i></i><i></i></span>
+          <span class="editor__file">contato.send()</span>
+        </div>
+        <div class="editor__body editor__body--form">
+          <label class="field">
+            <span class="field__label">nome</span>
+            <input type="text" name="nome" required placeholder="Como posso te chamar?">
+          </label>
+          <label class="field">
+            <span class="field__label">email</span>
+            <input type="email" name="email" required placeholder="seu@email.com">
+          </label>
+          <label class="field">
+            <span class="field__label">mensagem</span>
+            <textarea name="mensagem" rows="4" required placeholder="Conte um pouco sobre a oportunidade ou o motivo do contato..."></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary btn--block">Enviar mensagem <span class="btn__arrow">→</span></button>
+          <p class="field__hint" id="formHint">Ao enviar, seu aplicativo de e-mail abrirá com a mensagem já preenchida.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p>© <span id="year"></span> Jhonnatas Amaro. Construído com HTML, CSS e JavaScript.</p>
+    <div class="footer__links">
+      <a href="https://github.com/jhonnatas22" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/jhonnatas-amaro-65b96734a/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

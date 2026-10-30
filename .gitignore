@@ -1,0 +1,14 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.log
+*.zip
+
+# Node (caso adicione ferramentas no futuro)
+node_modules/
