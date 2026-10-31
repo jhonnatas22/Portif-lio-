@@ -26,6 +26,22 @@ const SKILLS = [
 
 const PROJECTS = [
   {
+    name: "urbanalert",
+    title: "UrbanAlert",
+    status: "concluído",
+    description: "Sistema de registro de ocorrências urbanas (denúncias e acompanhamentos): API em FastAPI com frontend em HTML/JS servido pelo próprio backend, usando SQLite localmente e PostgreSQL em produção.",
+    features: [
+      "Registro de ocorrências com categoria, prioridade, localização e fotos",
+      "Acompanhamento por status e histórico de cada ocorrência",
+      "Notificações de mudança de status para o cidadão",
+      "Perfis de acesso (cidadão e admin) com autenticação JWT",
+      "Busca, filtros e paginação; documentação interativa da API e testes automatizados"
+    ],
+    tech: ["Python", "FastAPI", "PostgreSQL", "SQLite", "JWT", "JavaScript", "Render"],
+    demo: "https://urbanalert-4a3r.onrender.com",
+    repo: "https://github.com/jhonnatas22/UrbanAlert"
+  },
+  {
     name: "doaflow",
     title: "DoaFlow",
     status: "concluído",
